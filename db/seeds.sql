@@ -1,5 +1,6 @@
-insert into burgers(burger_name)values("humberger");
-insert into burgers(burger_name)values("cheese-berger");
-insert into burgers(burger_name)values("veggie-berger");
-insert into burgers(burger_name)values("double-double");
-insert into burgers(burger_name)values("protein-berger");
+INSERT INTO burgers (name, devoured) VALUES ('humburger', true);
+INSERT INTO burgers (name, devoured) VALUES ('cheese Burger', false);
+INSERT INTO burgers (name, devoured) VALUES ('veggie Burger', true);
+INSERT INTO burgers (name, devoured) VALUES ('Double double', false);
+INSERT INTO burgers (name, devoured) VALUES ('Protein Burger', false);
+INSERT INTO burgers (name, devoured) VALUES ('Hawaiian Burger', false);
